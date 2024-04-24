@@ -5,7 +5,11 @@ MusicalMoments 插件 API 使用 TCP Sockets 获取数据，因此需要发送 G
 你可以调用这些 API 来获取 MusicalMoments 的各种数据。
 
 详情示例可看 MMPluginSDKExample: https://github.com/TheD0ubleC/MusicalMoments-PluginSDK/releases
-
+# 安装依赖库
+在命令行中输入以下命令即可安装:
+```cmd
+pip install PluginSDK
+```
 # 获取输入
 首先需要获取脚本启动时命令行参数中的第一个参数（API 地址），如下所示：
 ```python
